@@ -1,0 +1,52 @@
+# Stack config with sensitive IPs and gateway URLs
+stack.yaml
+
+# Build artifacts
+build/
+
+# OpenFaaS template (too large for repo)
+template/
+
+# OpenFaaS secrets
+.secrets
+secrets.yml
+
+# Environment files
+.env
+*.env
+.env.local
+
+# Docker
+.docker/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
